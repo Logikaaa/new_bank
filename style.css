@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body{
+    background-color: #6B6B6B;
+    color: #ffffff;
+    font-family: "Inter";
+}
+
+.card{
+    background-color: #555555;
+    border-radius: 40px;
+    width: 1165px;
+    margin: auto;
+    padding: 30px;
+    font-size: 48px;
+    margin-top: 0;
+    margin-bottom: 200px;
+}
+
+.card-input{
+    border: none;
+    border-bottom: 3px solid #ffffff;
+    background-color: #555555;
+    width: 1160px;
+    font-size: 48px;
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+
+.card-btn{
+    background-color: #555555;
+    width: 695px;
+    height: 106px;    
+    border-radius: 40px;
+    font-size: 48px;
+    font-weight: 700;
+    color: #ffffff;
+    display: block;
+    margin: auto;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.money{
+    color: #ffffff;
+    border: 3px solid #ffffff;
+    border-radius: 30px;
+    width: 369px;
+    font-size: 100px;
+    text-align: center;
+}
+
+.btn-send{
+    background-color: #555555;
+    color: #ffffff;
+    border: none;
+    border-radius: 40px;
+    width: 402px;
+    height: 106px;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.money-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1165px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.message{
+    border: 5px solid #00FF08;
+    width: 1031px;
+    height: 181px;
+    border-radius: 60px;
+    font-size: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.btn-return{
+    display: block;
+    background-color: #555555;
+    width: 695px;
+    height: 106px;
+    border-radius: 40px;
+    margin: auto;
+    font-size: 48px;
+    font-weight: 700;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+
